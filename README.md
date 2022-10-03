@@ -22,7 +22,7 @@ Además de intentar replicar la vista del componente, es necesario cumplir con o
 
 ### Colores
 
-- Very dark blue: #090b1a
+- Very dark blue:
 - Dark desaturated blue: #1b1938
 - Soft violet: #aa5cdb
 - White: #ffffff
@@ -34,4 +34,5 @@ Además de intentar replicar la vista del componente, es necesario cumplir con o
 
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400
+
 # tarjetas-estadisticas
