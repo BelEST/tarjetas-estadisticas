@@ -127,6 +127,11 @@ div {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .principal {
     width: 290px;
     height: 650px;
