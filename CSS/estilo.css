@@ -30,18 +30,23 @@ body {
   width: 47%;
   padding: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 .header h1 {
-  padding: 20px 40px;
+  width: 350px;
+  padding: 18px 28px;
   color: white;
+  text-align: center;
   font-family: "Inter", sans-serif;
   word-spacing: 0.1rem;
   font-size: 1.5rem;
 }
 .header span {
   color: #aa5cdb;
+  font-size: 1.5rem;
 }
 
 .footer {
@@ -62,8 +67,8 @@ body {
 .header .p1 {
   color: #ffffff;
   font-size: 0.8rem;
-  margin-top: 2%;
-  margin-bottom: 23%;
+  margin-top: 7.5px;
+  margin-bottom: 85.5px;
   padding: 0 40px;
   word-spacing: 0.5px;
   line-height: 1.3rem;
@@ -126,6 +131,76 @@ div {
   padding: 5px 0;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+  }
+  .principal {
+    width: 740px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1b1938;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .header {
+    width: 53%;
+    padding: 15px;
+  }
+  .header h1 {
+    width: 243px;
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    word-spacing: 0.1rem;
+    font-size: 1.2rem;
+  }
+  .header .p1 {
+    width: 225px;
+    font-size: 0.7rem;
+    margin-top: 6px;
+    margin-bottom: 75px;
+    padding: 0px 10px;
+  }
+  .header span {
+    font-size: 1.2rem;
+  }
+  .footer {
+    width: 47%;
+  }
+  
+
+}
+.header h2 {
+  font-size: 1rem;
+}
+
+.header h3 {
+  font-size: 1rem;
+}
+
+.header h4 {
+  font-size: 1rem;
+}
+.header .p2 {
+ 
+  padding: 3px 0;
+  font-size: 0.6em;
+}
+.header .p3 {
+  
+  font-size: 0.5rem;
+  padding: 3px 0;
+}
+.header .p4 {
+ 
+  font-size: 0.5rem;
+ 
+  padding: 3px 0;
+}
+}
 @media screen and (max-width: 480px) {
   body {
     display: flex;
